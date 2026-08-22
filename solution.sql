@@ -3,7 +3,7 @@ USE CollegeDB;
 DROP TABLE IF EXISTS Course;
 CREATE TABLE Course (CourseID INT(10) PRIMARY KEY,
                      CourseName VARCHAR(30),
-                     Creits INT(10),
+                     Credits INT(10),
                      DepartmentID INT (30)
                     );
 INSERT INTO Course(CourseID,CourseName,Credits,DepartmentID)
