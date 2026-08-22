@@ -1,5 +1,6 @@
-CREATE DATABASE IF NOT EXISTS College1DB;
-USE College1DB;
+CREATE DATABASE IF NOT EXISTS CollegeDB;
+USE CollegeDB;
+DROP TABLE IF EXISTS Course;
 CREATE TABLE Course (CourseID INT(10) PRIMARY KEY,
                      CourseName VARCHAR(30),
                      Creits INT(10),
