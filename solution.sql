@@ -12,9 +12,4 @@ VALUES (20200011,'INFORMATION TECHNOLOGY',95,'101'),
        (20205523,'INFORMATION TECHNOLOGY',85,'101');
 DESC Course;
 
-CREATE TABLE Student ( StudentID INT (10) PRIMARY KEY,StudentNAME VARCHAR (20),Gender VARCHAR (20),DeparmentID INT (20) );
-INSERT INTO Student(StudentID,StudentNAME,Gender,DepartmentID)
-VALUE (100,'Arun','Male',2002),
-      (101,'Divya','Female',2001),
-      (102,'Karthik','male',2003);
-SELECT *FROM Student;
+
